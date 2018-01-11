@@ -2,7 +2,7 @@
 
 ## Definición
 
-Conjunto prescrito de intrucciones o reglas definidas, ordenadas y **finitas** que permita llevar una actividad mediante pasos sucesivos y que no dependa de quien la realice.
+Conjunto pre-scrito de intrucciones o reglas definidas, ordenadas y **finitas** que permita llevar una actividad mediante pasos sucesivos y que no dependa de quien la realice.
 
 ## Diagramas de Flujo
 
