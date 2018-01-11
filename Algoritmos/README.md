@@ -189,7 +189,9 @@ Fin Para
 
 ## Funciones
 
-Como su homologo en matemáticas, una función recibe uno o multiples valores de entrada y regresa una salida, es necesario dejar explicitamente los valores de entrada entre paréntesis y dependiendo del lenguaje de programación se puede hacer en la respuesta.
+Como su homologo en matemáticas, una función transforma datos de un problema de entrada en datos de una solución. Por lo general se debe especificar los datos de entrada entre una estructura de parentesis.
+
+Cabe mencionar que una función debe entregar una solución por lo que el algoritmo que este contenido debe tener fin.
 
 Ejemplo: Algoritmo que muestre que números son múltiplos de 2 o de 3 que hay entre 1 y 1000.
 
