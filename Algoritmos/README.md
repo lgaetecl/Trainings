@@ -17,7 +17,7 @@ Los diagramas de flujo son descripciones gráficas de algoritmos; usan símbolos
 
 Es una descripción de alto nivel de un algoritmo que emplea una mezcla de lenguaje natural con algunas convenciones sintácticas propias de lenguajes de programación.
 
-### Variables
+## Variables
 
 Una variable es un espacio de almacenamiento de datos, con un nombre y un valor asociado. Para declarar una variable, se deben tener las siguientes consideraciones:
 
@@ -33,13 +33,106 @@ variable1 = 1
 variable2 = "hola mundo"
 ```
 
-### Condición
+### Tipos de Variables
+
+#### Númericos 
+
+Tipo de dato que representa un número entero, estos serian cualquier número (positivo, negativo e incluido el cero) que no tengan una coma decimal.
+
+Ejemplo:
+```
+numerico1 = 300
+numerico2 = -2
+numerico3 = 0
+```
+
+#### Decimales o de coma flotante
+
+Tipo de dato que representa un número Real, estos serian cualquier número (positivo, negativo e incluido el cero) que tenga una estructura entera y una parte decimal
+
+Ejemplo:
+```
+flotante1 = 1.102938
+flotante2 = -29.128370123
+flotante3 = 0.12361283
+```
+
+#### Lógicos
+
+Este tipo de dato se utiliza para almacenar valores lógicos, los que pueden ser true o false
+
+Ejemplo:
+```
+logico1 = true
+logico2 = false
+```
+
+#### Carácter
+
+Es un dígito individual el cual se puede representar como un numero, letra y simbolos. Por lo general se utilizan con comillas dobles (" ") o simples (' ')
+
+Ejemplo:
+```
+caracter1 = "a"
+caracter2 = "1"
+caracter3 = "#"
+```
+#### Cadenas de Texto
+
+Es una secuencia de forma ordenada de caracteres que tiene que ser finita. Por lo general y al igual que con los caracteres se utilizan con comillas dobles (" ") o simples (' ')
+
+Ejemplo:
+```
+cadena1 = "Stark"
+cadena2 = "Lannister"
+cadena3 = "Targaryen"
+```
+
+## Condición
+
+Es una instrucción o grupo de instrucciones que pueden o no ejecutarse, según el cumplimiento de una condición.
+
+### Operadores de Condición 
+
+Estos operadores tiene como objetivo entregar un valor Verdadero o Falso posterior a realizar su evaluación. Los operadores disponibles son los siguientes.
+
+```
+x != y     # x no es igual a y
+x > y      # x es mayor que y
+x < y      # x es menor que y
+x >= y     # x es mayor o igual que y
+x <= y     # x es menor o igual que y
+x == y     # x es igual a y
+```
+
+### Operadores Matemáticos
+
+Estos operadores representan acciones que se pueden realizar 
+
+```
+x + y      # Suma x e y
+x - y      # Resta x e y
+x * y      # Multiplica x e y
+x ** y     # Representa una potencia de x elevado a y
+x / y      # Divide x e y
+x % y      # Obtiene el Resto de una división entre x e y
+```
+
+### Operadores Logicos
+
+Sirven para anidar una o mas condiciones en base al valor entregado por la condición, estos operadores siguen las propiedades del Algebra Booleana.
+
+Existen 3 tipos de operadores que son: AND, OR y NOT 
+
+Se puede revisar la estructura básica en la siguiente imagen.
+
+<p align="center">
+<img src="https://unicrom.com/wp-content/uploads/algebra_booleana_1.gif">
+</p>
 
 ### Estructura de Condición
 
-Son instrucciones que pueden o no ejecutarse, según el cumplimiento de una condición.
-
-Condición Simple:
+#### Condición Simple:
 
 ```
 Si condición Entonces
@@ -47,7 +140,7 @@ Si condición Entonces
 Fin Si
 ```
 
-Condición Doble:
+#### Condición Doble:
 
 ```
 Si condición Entonces
@@ -57,7 +150,7 @@ Si No Entonces
 Fin Si
 ```
 
-Condición Multiple:
+#### Condición Multiple:
 
 ```
 Si condición1 Entonces
@@ -71,7 +164,7 @@ Si No Entonces
 Fin Si
 ```
 
-### Estructuras Iterativas
+## Estructuras Iterativas
 
 Representan la ejecución de instrucciones en más de una vez.
 
@@ -94,7 +187,7 @@ Para Inicialización de Variable; Condición; Incremento/Decremento Hacer
 Fin Para
 ```
 
-### Funciones
+## Funciones
 
 Como su homologo en matemáticas, una función recibe uno o multiples valores de entrada y regresa una salida, es necesario dejar explicitamente los valores de entrada entre paréntesis y dependiendo del lenguaje de programación se puede hacer en la respuesta.
 
