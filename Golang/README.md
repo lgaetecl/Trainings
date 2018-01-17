@@ -1,4 +1,8 @@
+<<<<<<< HEAD
  # Go o Golang
+=======
+# Go o Golang
+>>>>>>> d475a2ce26b8eeb305138e65161e125b803f2517
 
 ## Definición
 
