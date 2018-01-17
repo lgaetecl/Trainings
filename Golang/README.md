@@ -118,4 +118,4 @@ Acá más que nada dare unos cuantos links a Editores de Texto o IDE que recomie
 
 <b id="f6">6</b> Revisar el siguiente [link](https://github.com/golang/go/wiki/SettingGOPATH) para la configuración de variables de entorno. [↩](#a6)
 
-<b id="f7">7</b> Un ejemplo del orden de ejecución de funciones seria el [siguiente](https://play.golang.org/p/heKgYFrgl40)[↩](#a7)
+<b id="f7">7</b> Un ejemplo del orden de ejecución de funciones seria el [siguiente](https://play.golang.org/p/heKgYFrgl40). [↩](#a7)
