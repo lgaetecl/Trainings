@@ -106,7 +106,7 @@ Acá más que nada dare unos cuantos links a Editores de Texto o IDE que recomie
 ---
 ### Notas a Pie de Página
 
-<b id="f1">1</b> Hace referencia a que todas las validaciones se realizan en tiempo de compilación. Un ejemplo sería una variable que se declara como tipo entero esta al validarse su tipificación en el proceso de compilación no podrá cambiar su tipo durante viva el programa como se puede hacer en algunos lenguajes que tienen una tipificación dinámica. [↩](#a1)
+<b id="f1">1</b> [1/17/18, 12:03:59 PM] Musso, Belen: Hace referencia a que todas las validaciones se realizan en tiempo de compilación. Un ejemplo sería una variable que se declara como tipo entero, la misma al validarse su tipificación en el proceso de compilación no podrá cambiar su tipo mientras viva el programa, a diferencia de otros lenguajes que tienen una tipificación dinámica. [↩](#a1)
 
 <b id="f2">2</b> En Go no es obligación declarar los tipos de variables, si no se realiza implícitamente esta declaración el **Duck Test** escrito por el poeta  [James Whitcomb Riley](https://en.wikipedia.org/wiki/James_Whitcomb_Riley) debería poder definir qué tipo de variable es, este test dice lo siguiente  ```"Si camina como un pato, nada como un pato y hace "quack", podemos tratarlo como un pato"``` de esta forma el compilador podrá saber qué tipo de variable es debido a los valores que tiene asignados. [↩](#a2)
 
@@ -114,8 +114,7 @@ Acá más que nada dare unos cuantos links a Editores de Texto o IDE que recomie
 
 <b id="f4">4</b> Este tema es complejo es mas en la misma [página](https://golang.org/doc/faq#Is_Go_an_object-oriented_language) del lenguaje responden un sí y no. Si lo simplificamos en Go tenemos Clases, Objetos, Métodos pero no existe Herencia ni Polimorfismo por lo que podríamos decir que si bien cumple cierta parte de este paradigma no lo aplica al 100%. [↩](#a4)
 
-<b id="f5">5</b> Es un paradigma de programación
-Son aquellos lenguajes donde las variables no tienen estado(las variables no tienen cambios de estado durante el ciclo de ejecución de un problema ,por lo que son inmutables), estos lenguajes se caracterizan porque se escriben expresiones que se evaluaban como funciones y existen las estructuras ciclicas como ```for, while, do-while``` pero se prioriza el uso de la [recursividad](https://en.wikipedia.org/wiki/Recursive_definition) (si como las matemáticas :trollface:). Acá va un pequeño [ejemplo](https://play.golang.org/p/SMvab7uOSxx) de Sumas y Multiplicaciones. [↩](#a5)
+<b id="f5">5</b> Es un paradigma de programación, donde las variables no tienen estado(las variables no tienen cambios de estado durante el ciclo de ejecución de un problema ,por lo que son inmutables), estos lenguajes se caracterizan porque se escriben expresiones que se evaluaban como funciones y existen las estructuras ciclicas como ```for, while, do-while``` pero se prioriza el uso de la [recursividad](https://en.wikipedia.org/wiki/Recursive_definition) (si como las matemáticas :trollface:). Acá va un pequeño [ejemplo](https://play.golang.org/p/SMvab7uOSxx) de Sumas y Multiplicaciones. [↩](#a5)
 
 <b id="f6">6</b> Revisar el siguiente link para la configuración de variables de entorno https://github.com/golang/go/wiki/SettingGOPATH.   [↩](#a6)
 
