@@ -1,6 +1,6 @@
-# Go o Golang
+# Go o Golang
 
-## Definición
+## Definición
 
 Go o Golang es un lenguaje de programación compilado, concurrente, imperativo, estructurado, orientado a objetos y con un recolector de basura. Fue desarrollado por Google que dentro de sus desarrolladores iniciales están Robert Griesemer,  [Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike) y  [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson).
 
