@@ -185,7 +185,7 @@ Salida
 ```
 25
 ```
-Cabe destacar que en Go se debe declarar el tipo de la variable de retorno de la función. Tambien se puede retornar mas de una variable de una función. 
+Cabe destacar que en Go se debe declarar el tipo de la variable de retorno de la función, la que puede ser mas de una.
 
 ```go
 package main
