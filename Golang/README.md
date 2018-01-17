@@ -118,7 +118,7 @@ Aca mas que nada dare unos cuantos link a Editores de Texto o IDE que recomiendo
 
 <b id="f6">6</b> Revisar el siguiente link para la configuración de variables de entorno https://github.com/golang/go/wiki/SettingGOPATH.   [↩](#a6)
 
-<b id="f7">7</b> Un ejemplo rápido de esta declaración seria el siguiente:
+<b id="f7">7</b> Un ejemplo del orden de ejecución de funciones seria el siguiente:
 
 ```go
 package main
