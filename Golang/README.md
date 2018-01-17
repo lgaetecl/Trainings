@@ -1,9 +1,4 @@
-<<<<<<< HEAD
- # Go o Golang
-=======
 # Go o Golang
->>>>>>> d475a2ce26b8eeb305138e65161e125b803f2517
-
 ## Definición
 
 Go o Golang es un lenguaje de programación compilado, concurrente, imperativo, estructurado, orientado a objetos y con un recolector de basura. Fue desarrollado por Google que dentro de sus desarrolladores iniciales están Robert Griesemer,  [Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike) y  [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson).
@@ -85,7 +80,7 @@ Para ejecutar este codigo se puede hacer de 2 formas
 
 Con esto ya tenemos nuestro primer programa en Go, les dejo un [link](https://play.golang.org/p/Ws2MAOgom1C) para que puedan practicar online si gustan.
 
-## Sintaxis
+## Sintaxis
 
 ### Tour de Sintaxis
 
