@@ -28,7 +28,7 @@ El Go Gopher es la mascota icónica y una de las características que más disti
 
 Es un sistema de código libre para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores.
 
- <img src="https://github.com/kubernetes/kubernetes/raw/master/logo/logo.png" width="100">
+ <img src="https://kubernetes.io/images/favicon.png" width="100">
 
 ### Drone
 
