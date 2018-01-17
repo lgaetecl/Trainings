@@ -104,7 +104,6 @@ Aca mas que nada dare unos cuantos link a Editores de Texto o IDE que recomiendo
 - [Artículos](https://github.com/golang/go/wiki/Articles)
 
 ---
----
 ### Notas a Pie de Página
 
 <b id="f1">1</b> Hace referencia a que todas las validaciones se realizan en tiempo de compilación, un ejemplo seria una variable que se declara como tipo entero esta al validarse su tipificación en el proceso de compilación no podra cambiar su tipo durante viva el programa como se puede hacer en algunos lenguajes que tienen una tipificación dinamica.[↩](#a1)
