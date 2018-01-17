@@ -34,19 +34,19 @@ Es un sistema de código libre para la automatización del despliegue, ajuste de
 
 Drone es una herramienta de integración continua open source hecha en Go y Docker que nos permite correr tests, crear los artefactos de nuestro proyecto, notificar de los resultados, etc.
 
-<img src="https://codeandoando.com/content/images/2016/02/droneio.png" width="100">
+<img src="https://codeandoando.com/content/images/2016/02/droneio.png" width="200">
 
 ### InfluxDB
 
 InfluxDB es una base de datos de series de tiempo abierto desarrollada por InfluxData.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Influxdb_logo.svg/1200px-Influxdb_logo.svg.png" width="100">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Influxdb_logo.svg/1200px-Influxdb_logo.svg.png" width="200">
 
 ### Docker
 
 Es un proyecto de código abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de Virtualización a nivel de sistema operativo en Linux.
 
-<img src="https://www.ubuntufree.com/wp-content/uploads/2016/01/docker-1-10-linux-container-engine-is-a-massive-release-first-rc-build-out-now.jpg" width="100">
+<img src="https://www.ubuntufree.com/wp-content/uploads/2016/01/docker-1-10-linux-container-engine-is-a-massive-release-first-rc-build-out-now.jpg" width="200">
 
 ## Instalación
 
