@@ -130,7 +130,7 @@ Acá más que nada dare unos cuantos links a Editores de Texto o IDE que recomie
 ---
 ### Notas a Pie de Página
 
-<b id="f1">1</b> [1/17/18, 12:03:59 PM] Musso, Belen: Hace referencia a que todas las validaciones se realizan en tiempo de compilación. Un ejemplo sería una variable que se declara como tipo entero, la misma al validarse su tipificación en el proceso de compilación no podrá cambiar su tipo mientras viva el programa, a diferencia de otros lenguajes que tienen una tipificación dinámica. [↩](#a1)
+<b id="f1">1</b> Hace referencia a que todas las validaciones se realizan en tiempo de compilación. Un ejemplo sería una variable que se declara como tipo entero, la misma al validarse su tipificación en el proceso de compilación no podrá cambiar su tipo mientras viva el programa, a diferencia de otros lenguajes que tienen una tipificación dinámica. [↩](#a1)
 
 <b id="f2">2</b> En Go no es obligación declarar los tipos de variables, si no se realiza implícitamente esta declaración el **Duck Test** escrito por el poeta  [James Whitcomb Riley](https://en.wikipedia.org/wiki/James_Whitcomb_Riley) debería poder definir qué tipo de variable es, este test dice lo siguiente  ```"Si camina como un pato, nada como un pato y hace "cua cua", podemos tratarlo como un pato"``` de esta forma el compilador podrá saber qué tipo de variable es debido a los valores que tiene asignados. [↩](#a2)
 
