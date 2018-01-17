@@ -22,7 +22,31 @@ El Go Gopher es la mascota icónica y una de las características que más disti
 
 ![img](https://qph.ec.quoracdn.net/main-qimg-716a9a93c3a28db4dead8e36d3046035)
 
-## Quienes usan GO
+## Aplicaciones que utilizan GO
+
+### Kubernetes
+
+Es un sistema de código libre para la automatización del despliegue, ajuste de escala y manejo de aplicaciones en contenedores.
+
+ <img src="https://github.com/kubernetes/kubernetes/raw/master/logo/logo.png" width="100">
+
+### Drone
+
+Drone es una herramienta de integración continua open source hecha en Go y Docker que nos permite correr tests, crear los artefactos de nuestro proyecto, notificar de los resultados, etc.
+
+<img src="https://codeandoando.com/content/images/2016/02/droneio.png" width="100">
+
+### InfluxDB
+
+InfluxDB es una base de datos de series de tiempo abierto desarrollada por InfluxData.
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Influxdb_logo.svg/1200px-Influxdb_logo.svg.png" width="100">
+
+### Docker
+
+Es un proyecto de código abierto que automatiza el despliegue de aplicaciones dentro de contenedores de software, proporcionando una capa adicional de abstracción y automatización de Virtualización a nivel de sistema operativo en Linux.
+
+<img src="https://www.ubuntufree.com/wp-content/uploads/2016/01/docker-1-10-linux-container-engine-is-a-massive-release-first-rc-build-out-now.jpg" width="100">
 
 ## Instalación
 
