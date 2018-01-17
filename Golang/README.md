@@ -106,6 +106,198 @@ Con esto ya tenemos nuestro primer programa en Go, les dejo un [link](https://pl
 
 ## Sintaxis
 
+### Variables
+
+Para declarar variables se usa la palabra reserva ```var```
+
+**Declaración implicita**
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    var a, b int = 2, 4
+    x, y, z:= true, false, "No es fácil estar borracho todo el tiempo. Si fuera fácil, todo el mundo lo haría"
+
+    fmt.Println(a, b, x, y, z)
+}
+```
+**Tipos Básicos**
+
+En Go existen los siguientes tipos de variables:
+
+```go
+bool
+string
+int  int8  int16  int32  int64
+uint uint8 uint16 uint32 uint64 uintptr
+byte //alias para uint8
+rune // alias para int32
+float32 float64
+complex64 complex128
+```
+**Constantes**
+
+Son tipos de variables que tienen un valor constante en el tiempo y que no cambian, se declaran con la palabra reserva ```const```
+
+```go
+package main
+
+import "fmt"
+
+const Pi = 3.14159265358979323846
+
+func main() {
+  
+    fmt.Println(Pi)
+}
+```
+
+### Funciones
+
+Una función puede tener cero o más argumentos de entradas y de salidas.
+
+Por ejemplo tenemos la siguiente función, la que recibe como parametros de entrada 2 varibles del tipo int y esta retorna un entero.
+
+```go
+package main
+
+import "fmt"
+
+func sum(x int, y int) int {
+    return x + y
+}
+
+func main() {
+    fmt.Println(sum(10, 15))
+}
+```
+Cabe destacar que en Go se debe declarar el tipo de la variable de retorno de la función. Tambien se puede retornar mas de una variable de una función. 
+
+```go
+package main
+
+import "fmt"
+
+func merge(x, y, z string) (string, string, string) {
+    return x, y, z
+}
+
+func main() {
+    a, b, c := merge("Winter", "is", "Coming")
+    fmt.Println(a, b, c)
+}
+```
+
+### For
+
+Go tiene sólo un operando para definir los bucles, los bucles for.
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    sum := 0
+    for i := 0; i < 10; i++ {
+        sum += i
+    }
+    fmt.Println(sum)
+}
+```
+
+For puede trabajar como un "while" en Go
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    sum := 1
+    for sum < 10 {
+        sum += sum
+    }
+    fmt.Println(sum)
+}
+```
+
+Y en caso de necesitar un for infinito puedes hacerlo de esta forma (no lo recomiendo realizar)
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    for {
+        fmt.Println("Hola Mundo")
+    }
+}
+```
+
+### If
+
+La instrucción if es similar a la sentencia en C o Java, salvo que los paréntesis ( ) desaparecen (ni siquiera son opcionales) y las llaves { } son obligatorias.
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+func pair(x int) string {
+	var r string
+	if x == 0 {
+		r = "Valor igual a 0"
+	} else if x % 2 == 0{
+		r = "Es Par"
+	} else {
+		r = "Es Impar"
+	}
+	return r
+
+}
+
+func main() {
+	fmt.Println(pair(1))
+}
+```
+
+## Estructuras
+
+Una estructura (```struct```) es un registro de variables dentro de un mismo tipo.
+
+```go
+package main
+
+import "fmt"
+
+type Pokemon struct {
+	Nombre        string
+	Tipo          string
+	Ataque        int
+	Defensa       int
+	Salud         int
+	MegaEvolucion bool
+}
+
+func main() {
+	p := Pokemon{"Charizard", "Fuego", 223, 176, 156, true}
+	fmt.Println("Nombre:" + p.Nombre)
+	fmt.Println("Tipo:" + p.Tipo)
+	fmt.Printf("Ataque: %d\nDefensa: %d \nSalud: %d \n", p.Ataque, p.Defensa, p.Salud)
+	if p.MegaEvolucion{
+		fmt.Println("Cuenta con Mega Evolución")
+	}
+	
+}
+```
+
 ### Tour de Sintaxis
 
 Golang tiene una página web donde puedes hacer un pequeño tour donde te mostraran la sintaxis y lo más básico de este lenguaje de programación.
