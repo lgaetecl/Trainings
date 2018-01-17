@@ -93,7 +93,7 @@ https://go-tour-es.appspot.com/#1
 Aca mas que nada dare unos cuantos link a Editores de Texto o IDE que recomiendo para programar en GO
 
 - [Visual Studio Code](https://code.visualstudio.com): Este editor de texto tiene un Pluggin de GO bastante potente y tiene una buena integración con GIT por lo que simplifica bastante las cosas.
-- [Goland][https://www.jetbrains.com/go/]: Diria que es a la fecha el IDE mas potente que tenemos disponible para GO, su unico pero es que es pagado pero siendo estudiante puedes obtar a una licencia de 1 año.
+- [Goland](https://www.jetbrains.com/go/): Diria que es a la fecha el IDE mas potente que tenemos disponible para GO, su unico pero es que es pagado pero siendo estudiante puedes obtar a una licencia de 1 año.
 - [Atom](https://atom.io/): Al igual que Visual Studio Code, Atom tiene un [pluggin](https://atom.io/packages/go-plus) bastante bueno para GO por lo que ayuda un poco con su sintaxis
 - [Vim](https://github.com/fatih/vim-go): Para los fanaticos de la terminal existe un pluggin de Vim que tambien funciona bastante bien con el soporte del lenguaje.
 
@@ -106,7 +106,7 @@ Aca mas que nada dare unos cuantos link a Editores de Texto o IDE que recomiendo
 ---
 ### Notas a Pie de Página
 
-<b id="f1">1</b> Hace referencia a que todas las validaciones se realizan en tiempo de compilación, un ejemplo seria una variable que se declara como tipo entero esta al validarse su tipificación en el proceso de compilación no podra cambiar su tipo durante viva el programa como se puede hacer en algunos lenguajes que tienen una tipificación dinamica.[↩](#a1)
+<b id="f1">1</b> Hace referencia a que todas las validaciones se realizan en tiempo de compilación. Un ejemplo seria una variable que se declara como tipo entero esta al validarse su tipificación en el proceso de compilación no podra cambiar su tipo durante viva el programa como se puede hacer en algunos lenguajes que tienen una tipificación dinamica.[↩](#a1)
 
 <b id="f2">2</b> En Go no es obligación declarar los tipos de variables, si no se realiza implicitamente esta declaración el **Duck Test** escrito por el poeta  [James Whitcomb Riley](https://en.wikipedia.org/wiki/James_Whitcomb_Riley) deberia poder definir que tipo de variable es, este test dice lo siguiente  ```"Si camina como un pato, nada como un pato y hace "quack", podemos tratarlo como un pato"``` de esta forma el compilador podra saber que tipo de variable es debido a los valores que tiene asignados.[↩](#a2)
 
