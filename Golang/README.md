@@ -116,7 +116,7 @@ Aca mas que nada dare unos cuantos link a Editores de Texto o IDE que recomiendo
 
 <b id="f5">5</b> Son aquellos lenguajes donde las variables no tienen estado(por lo que no inmutables), no existen las estructuras ciclicas como ```for, while, do-while``` ya que se procesa todo utilizando [recursividad](https://en.wikipedia.org/wiki/Recursive_definition) (si como las matemáticas :trollface:). [↩](#a5)
 
-<b id="f6">6</b> Revisar el siguiente link para la configuración de variables de entorno https://github.com/golang/go/wiki/SettingGOPATH.[↩](#a6)
+<b id="f6">6</b> Revisar el siguiente link para la configuración de variables de entorno https://github.com/golang/go/wiki/SettingGOPATH.   [↩](#a6)
 
 <b id="f7">7</b> Un ejemplo rápido de esta declaración seria el siguiente:
 
