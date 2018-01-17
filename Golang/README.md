@@ -234,7 +234,7 @@ import "fmt"
 
 func main() {
     for {
-        fmt.Println("Hola Mundo")
+        fmt.Println("Hold the Door")
     }
 }
 ```
