@@ -110,7 +110,7 @@ Con esto ya tenemos nuestro primer programa en Go, les dejo un [link](https://pl
 
 Para declarar variables se usa la palabra reserva ```var```
 
-**Declaración implicita**
+**Declaración implicita y Duck Typing**
 
 ```go
 package main
