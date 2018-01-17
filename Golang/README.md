@@ -124,6 +124,10 @@ func main() {
     fmt.Println(a, b, x, y, z)
 }
 ```
+Salida
+```
+2 4 true false No es fácil estar borracho todo el tiempo. Si fuera fácil, todo el mundo lo haría
+```
 **Tipos Básicos**
 
 En Go existen los siguientes tipos de variables:
@@ -154,7 +158,10 @@ func main() {
     fmt.Println(Pi)
 }
 ```
-
+Salida
+```
+3.141592653589793
+```
 ### Funciones
 
 Una función puede tener cero o más argumentos de entradas y de salidas.
@@ -174,6 +181,10 @@ func main() {
     fmt.Println(sum(10, 15))
 }
 ```
+Salida
+```
+25
+```
 Cabe destacar que en Go se debe declarar el tipo de la variable de retorno de la función. Tambien se puede retornar mas de una variable de una función. 
 
 ```go
@@ -190,7 +201,10 @@ func main() {
     fmt.Println(a, b, c)
 }
 ```
-
+Salida
+```
+Winter is Coming
+```
 ### For
 
 Go tiene sólo un operando para definir los bucles, los bucles for.
@@ -208,6 +222,10 @@ func main() {
     fmt.Println(sum)
 }
 ```
+Salida
+```
+45
+```
 
 For puede trabajar como un "while" en Go
 
@@ -224,7 +242,10 @@ func main() {
     fmt.Println(sum)
 }
 ```
-
+Salida
+```
+16
+```
 Y en caso de necesitar un for infinito puedes hacerlo de esta forma (no lo recomiendo realizar)
 
 ```go
@@ -237,6 +258,19 @@ func main() {
         fmt.Println("Hold the Door")
     }
 }
+```
+Salida
+```
+Hold the Door
+Hold the Door
+.
+.
+.
+Hold the Door
+Hold the Door
+.
+.
+.
 ```
 
 ### If
@@ -267,6 +301,10 @@ func main() {
 	fmt.Println(pair(1))
 }
 ```
+Salida
+```
+Es Impar
+```
 
 ## Estructuras
 
@@ -296,6 +334,15 @@ func main() {
 	}
 	
 }
+```
+Salida
+```
+Nombre:Charizard
+Tipo:Fuego
+Ataque: 223
+Defensa: 176 
+Salud: 156 
+Cuenta con Mega Evolución
 ```
 
 ### Tour de Sintaxis
