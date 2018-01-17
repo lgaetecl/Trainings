@@ -116,6 +116,6 @@ Acá más que nada dare unos cuantos links a Editores de Texto o IDE que recomie
 
 <b id="f5">5</b> Es un paradigma de programación, donde las variables no tienen estado(no tienen cambios de estado durante el ciclo de ejecución de un problema ,por lo que son inmutables), estos lenguajes se caracterizan porque se escriben expresiones que se evaluaban como funciones, si bien en go existen las estructuras ciclicas como ```for, while, do-while``` se debe priorizar el uso de la [recursividad](https://en.wikipedia.org/wiki/Recursive_definition) (si como las matemáticas :trollface:). Acá un pequeño [ejemplo](https://play.golang.org/p/SMvab7uOSxx) de Sumas y Multiplicaciones. [↩](#a5)
 
-<b id="f6">6</b> Revisar el siguiente link para la configuración de variables de entorno https://github.com/golang/go/wiki/SettingGOPATH.   [↩](#a6)
+<b id="f6">6</b> Revisar el siguiente [link](https://github.com/golang/go/wiki/SettingGOPATH) para la configuración de variables de entorno. [↩](#a6)
 
 <b id="f7">7</b> Un ejemplo del orden de ejecución de funciones seria el [siguiente](https://play.golang.org/p/heKgYFrgl40)[↩](#a7)
