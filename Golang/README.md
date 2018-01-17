@@ -1,7 +1,7 @@
 # Go o Golang
 ## Definición
 
-Go o Golang es un lenguaje de programación compilado, concurrente, imperativo, estructurado, orientado a objetos y con un recolector de basura. Fue desarrollado por Google que dentro de sus desarrolladores iniciales están Robert Griesemer,  [Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike) y  [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson).
+Go o Golang es un lenguaje de programación compilado, concurrente, imperativo, estructurado, orientado a objetos y con un recolector de basura. Fue desarrollado por Google que dentro de sus desarrolladores iniciales están [Robert Griesemer](https://research.google.com/pubs/author96.html),  [Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike) y  [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson).
 
 ## Caracteristicas
 
@@ -18,7 +18,7 @@ Go o Golang es un lenguaje de programación compilado, concurrente, imperativo, 
 
 ##  Gopher 
 
-El Go Gopher es la mascota icónica y una de las características que más distingue a este proyecto, personalmente llegue a este lenguaje por esta mascota :joy:. Fue creado por [Renee French](http://reneefrench.blogspot.cl) e hizo su aparición oficinal en el 2009.
+El Go Gopher es la mascota icónica y una de las características que más distingue a este proyecto, personalmente llegue a este lenguaje por esta mascota :joy:. Fue creado por [Renee French](http://reneefrench.blogspot.cl) e hizo su aparición oficial en el 2009.
 
 ![img](https://qph.ec.quoracdn.net/main-qimg-716a9a93c3a28db4dead8e36d3046035)
 
