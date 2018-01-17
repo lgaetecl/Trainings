@@ -114,31 +114,9 @@ Aca mas que nada dare unos cuantos link a Editores de Texto o IDE que recomiendo
 
 <b id="f4">4</b> Este tema es complejo es mas en la misma [página](https://golang.org/doc/faq#Is_Go_an_object-oriented_language) del lenguaje responden un si y no. Si lo simplificamos en Go tenemos Clases, Objetos, Metodos pero no existe Herencia ni Polimorfismo por lo que podriamos decir que si bien cumple cierta parte de este paradigma no lo aplica al 100%.[↩](#a4)
 
-<b id="f5">5</b> Son aquellos lenguajes donde las variables no tienen estado(por lo que no inmutables), no existen las estructuras ciclicas como ```for, while, do-while``` ya que se procesa todo utilizando [recursividad](https://en.wikipedia.org/wiki/Recursive_definition) (si como las matemáticas :trollface:). [↩](#a5)
+<b id="f5">5</b> Es un paradigma de programación
+Son aquellos lenguajes donde las variables no tienen estado(las variables no tienen cambios de estado durante el ciclo de ejecución de un problema ,por lo que son inmutables), estos lenguajes se caracterizan porque se escriben expreciones que se evaluacan como funciones y no existen las estructuras ciclicas como ```for, while, do-while``` ya que se procesa todo utilizando [recursividad](https://en.wikipedia.org/wiki/Recursive_definition) (si como las matemáticas :trollface:). Aca va un pequeño [ejemplo](https://play.golang.org/p/SMvab7uOSxx) de Sumas y Multiplicaciones[↩](#a5)
 
 <b id="f6">6</b> Revisar el siguiente link para la configuración de variables de entorno https://github.com/golang/go/wiki/SettingGOPATH.   [↩](#a6)
 
-<b id="f7">7</b> Un ejemplo del orden de ejecución de funciones seria el siguiente:
-
-```go
-package main
-
-func init() {
-    println("Primero")
-}
-
-func init() {
-    println("Segundo")
-}
-
-func main() {
-    // Sin nada en main se evidencia que se ejecutan ambas funciones init
-}
-```
-la que tiene como [sálida](https://play.golang.org/p/heKgYFrgl40)
-
-```
-Primero
-Segundo
-```
-[↩](#a7)
+<b id="f7">7</b> Un ejemplo del orden de ejecución de funciones seria el [siguiente](https://play.golang.org/p/heKgYFrgl40)[↩](#a7)
