@@ -365,6 +365,7 @@ Acá más que nada dare unos cuantos links a Editores de Texto o IDE que recomie
 - [Documentación Oficial](https://golang.org/doc/)
 - [Lista de Framework, Librerias y Software](https://github.com/avelino/awesome-go)
 - [Artículos](https://github.com/golang/go/wiki/Articles)
+- [Errores Frecuentes](http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/)
 
 ---
 ### Notas a Pie de Página
