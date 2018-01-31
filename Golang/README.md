@@ -53,12 +53,11 @@ Es un proyecto de código abierto que automatiza el despliegue de aplicaciones d
 El proceso de instalación de Go es bastante sencillo y consta de los siguientes pasos:
 
 - Ir a la página https://golang.org/dl/ y descargar los binarios de instalación según su sistema operativo.
-- Crear la variable ```GOPATH y GOBIN```<sup id="a6">[6](#f6)</sup>
-- Para validar la instalación puede ejecutar el comando ```go version``` donde este mostrara la versión que de Go que tiene instalada.
+- Seguir las instrucciones de instalación del siguietne [link](https://golang.org/doc/install)
 
 ```
 $ go version
-go version go1.9.2 darwin/amd64
+go version go1.9.3 darwin/amd64
 ```
 
 ## Hola Mundo
